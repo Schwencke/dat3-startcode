@@ -1,3 +1,4 @@
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -5,10 +6,7 @@
  */
 package errorhandling;
 
-/**
- *
- * @author jobe
- */
+
 public class ExceptionDTO {
     private int code;
     private String message;
@@ -17,5 +15,13 @@ public class ExceptionDTO {
       this.code = code;
       this.message = description;
   }
-    
+
+    public int getCode() {
+        return code;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
 }
